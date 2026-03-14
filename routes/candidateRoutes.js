@@ -167,4 +167,4 @@ router.get('/vote/:candidateID', jwtAuthMiddleware, async (req, res)=>{
 //     }
 // });
 
-// module.exports = router;
+ module.exports = router;
