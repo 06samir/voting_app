@@ -15,7 +15,7 @@ const candidateRoutes = require('./routes/candidateRoutes');
 app.use('/user', userRoutes);
 app.use('/candidate', candidateRoutes);
 
-
+// added port
 app.listen(PORT, ()=>{
     console.log('listening on port 3000');
 })

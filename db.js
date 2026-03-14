@@ -18,4 +18,5 @@ mongoose.connect("mongodb://127.0.0.1:27017/voting_app")
     console.log('DB is connected')
   })
 
+  //export
   module.exports = db;
